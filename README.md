@@ -9,8 +9,8 @@
 * `Custom messages! `
 
 # Usage
-**Step 1:** Put your custom messages in 'messages.txt' (seperated by new lines, if you want the message to have a newline do \n)
-**Step 2:** Launch the program and enter the webhook. Then enter the number of messages!
-**Step 3:** Done! Wait for it to finish spamming & delete the webhook!
+- **Step 1:** Put your custom messages in 'messages.txt' (seperated by new lines, if you want the message to have a newline do \n)
+- **Step 2:** Launch the program and enter the webhook. Then enter the number of messages!
+- **Step 3:** Done! Wait for it to finish spamming & delete the webhook!
 
 **Enjoy!** 😊
