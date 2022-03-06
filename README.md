@@ -13,6 +13,6 @@
 - **Step 2:** Launch the program and enter the webhook. Then enter the number of messages!
 - **Step 3:** Done! Wait for it to finish spamming & delete the webhook!
 
-**(YOU MUST HAVE PYTHON INSTALLED!)**
+**(YOU MUST HAVE PYTHON & REQUESTS MODULE INSTALLED!)**
 
 **Enjoy!** 😊
