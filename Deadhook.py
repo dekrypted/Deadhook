@@ -40,12 +40,12 @@ while done < times:
     if w.status_code == 429:
         os.system(f'title Deadhook - Error! (#{done})')
         print('\u001b[0m\u001b[31m[\u001b[0m-\u001b[31m] Failed! \u001b[33mRatelimited! Waiting a couple seconds...')
-        time.sleep(3)
+        time.sleep(w.json()['retry_after'] + 1)
     else:
         os.system(f'title Deadhook - Spamming! (#{done})')
         print(f'\u001b[0m\u001b[32;1m[\u001b[0m+\u001b[32;1m] Success! \u001b[0m\u001b[33mSent message "{tempMsg}"! (#{done})\u001b[0m')
         done += 1
-    time.sleep(0.6)
+        time.sleep(0.2)
 requests.delete(webhook)
 print(f'\u001b[0m\u001b[32;1m[\u001b[0m+\u001b[32;1m] Success! \u001b[0m\u001b[33mDeleted webhook!\u001b[0m')
 os.system(f'title Deadhook - Deleted webhook after spamming {done} times!')
