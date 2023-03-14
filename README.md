@@ -4,9 +4,9 @@
 <br />
 <h2 align="left">- Features -</h3>
 
-* `2 messages per second! `
-* `Easy to use! `
-* `Custom messages! `
+* `2 messages per second!`
+* `Easy to use!`
+* `Custom messages!`
 
 # Usage
 - **Step 1:** Put your custom messages in 'messages.txt' (seperated by new lines, if you want the message to have a newline do \n)
