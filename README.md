@@ -4,7 +4,7 @@
 <br />
 <h2 align="left">- Features -</h3>
 
-* `2 messages per second!`
+* `5+ messages per second!`
 * `Easy to use!`
 * `Custom messages!`
 
