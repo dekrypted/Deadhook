@@ -40,7 +40,7 @@ while done < times:
     if w.status_code == 429:
         os.system(f'title Deadhook - Error! (#{done})')
         print('\u001b[0m\u001b[31m[\u001b[0m-\u001b[31m] Failed! \u001b[33mRatelimited! Waiting a couple seconds...')
-        time.sleep(w.json()['retry_after'] + 1)
+        time.sleep(w.json()['retry_after']/1000 + 1)
     else:
         os.system(f'title Deadhook - Spamming! (#{done})')
         print(f'\u001b[0m\u001b[32;1m[\u001b[0m+\u001b[32;1m] Success! \u001b[0m\u001b[33mSent message "{tempMsg}"! (#{done})\u001b[0m')
